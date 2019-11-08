@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link class="title-icon" rel="icon" type="image/jpg" href="images/titleicon.jpg">
-	<title>Ujjwala Bai</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-responsive.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
-</head>
-<body>
-	<div class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-		<a href="#" class="navbar-brand">Ujjwala Bai</a>
-		<button class="navbar-toggler" data-toggle="collapse" data-target="#NavbarMenu">
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Ujjwala Bai - Full Stack Developer</title>
+		<link rel="icon" type="image/png" href="index.ico">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse  navbar-fixed-top" id="NavbarMenu">
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a class="nav-link" href="#home">Home</a>
 					</li>
 					<li class="nav-item">
@@ -33,111 +31,157 @@
 						<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
-		</div>      
-	</div> <!--navbar-->
-	<!--**** end of navbar ****-->
-	<section class="bg-primary" id="home">
-	<div class="home-page">
-		<div class="row">
-			<div class="col left-col">
-				<p class="main-text">Hi there! I'm <span class="my-name">Ujjwala</span></p>
-				<hr class="divider">
-				<p>I design and code things on the web.</p>
-			</div><!--left-col-->
-			<div id="head-img" class="col-lg-6">
-			<img class="img-responsive img-circle" style=" border-radius: 40px; padding: 5px; width: 400px;" src="images/profile.jpeg">
 			</div>
-		</div><!--row-->
-	</div><!--home-->
-	</section>
-	<!--**** end of home page****-->
-	<section class="bg-primary" id="about">
-	<div class="about-page" >
-		<h3>ABOUT</h3>
-		<hr class="divider">
-		<div class="col-lg-8 mx-auto text-center">
-		<p class="text-faded mb-4" style="color: white;">I'm a full stack web developer from Bengalore.
-		I'm passionate about learning new things.
-		I like to help my clients with the best of my knowledge.
-		If you are looking for a freelancer, you have landed on the right page!</p>
+		</nav>
+		<div class="hero" id="home">
+			<div class="row">
+				<div class="col col-md-7">		
+					<div class="hero-left-div flex flex-col">
+						<div class="container" data-aos="fade-right" data-aos-duration="1500">
+							<div class="hero-subheader"><h4>Hi, I'm Ujjwala.</h4></div><br>
+							<div class="hero-desc"><p>A <strong>Full Stack Web Developer</strong><br> from Bangalore, India.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col col-md-3">	
+					<div id="head-img" data-aos="fade-right" data-aos-duration="1500">
+						<img src="Profile.jpeg" alt="" class="mobile-img mobile-img-div">
+					</div>
+				</div>
+			</div>
 		</div>
-	</div><!--about-->
-	</section>
-	<!--**** end of about page****-->
-	<section class="bg-primary" id="skill">
-	<div class="skill-page">
-		<h3>SKILLS</h3>
-		<hr class="divider">
-		<div class="skills">
+		<div class="section2 flex flex-col" id="about">
 			<div class="row">
-				<div class="col-lg-4 col ml-auto text-center text-faded mb-4">
-					<img src="images/python1.jpg">
-					<p>Python</p>
-				</div>
-				<div class="col-lg-4 col ml-auto text-center text-faded mb-4">
-					<img src="images/web1.jpg">
-					<p>Web Development</p>
-				</div>
-				<div class="col-lg-4 col ml-auto text-center text-faded mb-4">
-					<img src="images/sql1.png">
-					<p>PL/SQL</p>
-				</div>
-			</div><!--row-->    
-		</div><!--skills-->
-	</div><!--skill-page-->
-	</section>
-	<!--**** end of skills page ****-->
-	<section class="bg-primary" id="work">
-	<div class="work-page">
-		<h3 style="color: white;">PROJECTS</h3>
-		<hr class="divider">
-		<div class="projects">
-			<p>Click on the links below to know my work</p>
+				<div class="col-10 col-sm-6 col-md-12" data-aos="zoom-out"data-aos-duration="1000"
+					data-aos-easing="ease-in-sine">
+					<div class="about-header">About.</div><br>
+					<div class="about-desc"> I'm passionate about developing things and designing them, learning new things has always driven me towards upskilling.<a class="nav-link" href="#contact">contact me</a> if you think you want to hire me or if you want to collaborate</p></div><br>
+				</div>	
+			</div>
+		</div>
+		<div class="section3" id="work" data-aos="fade-down" data-aos-duration="1500"><br><br>
+			<div class="about-header flex">My Projects.</div><br>
 			<div class="row">
-				<div class="col">
-					<p><a href="https://github.com/ujjwalabai-03/OfflineBanking" style="text-decoration: none;color: white;" target="_blank"><br> &#8594; Offline Banking</a><br>A basic console application for banking transactions, using python</p>
-					<p><a href="https://github.com/ujjwalabai-03/insta-filter" style="text-decoration: none;color:white;" target="_blank"> &#8594; Insta Filters</a><br>To apply filters to images, using python</p>	
+				<br>
+				<div class="col-12 col-sm-4 col-md-3 flex">
+					<a href="https://github.com/ujjwalabai-03/Paw-Store" target="_blank">
+						<div class="card mycard">
+							<div class="card-header project-header">
+							    Pawstore
+							</div>
+							<div class="card-body">
+							    <h5 class="card-title">Application that helps in adoption of pets and find pet day-care centers.</h5><br>
+							    <p class="card-text">Skills - Python, Django, Jinja, HTML, CSS</p>
+							</div>
+						</div>
+					</a>
 				</div>
-			</div><!--row-->
-			<div class="row">
-				<div class="col">
-					<p><a href="https://ujjwalabai-03.github.io/PricingPage/" style="text-decoration: none;color: white;" target="_blank"> &#8594;  Pricing Page</a><br>Component design showing price values according to different needs</p>
-					<p><a href="https://ujjwalabai-03.github.io/NewsFeedPost/" style="text-decoration: none;color: white;" target="_blank"> &#8594;  News Feed Post</a><br>Component design that shows posts on news feed</p>
+				<div class="col-12 col-sm-4 col-md-3 flex">
+					<a href="https://github.com/ujjwalabai-03/Revive-Booking" target="_blank">
+						<div class="card mycard">
+							<div class="card-header project-header">
+							    Revive
+							</div>
+							<div class="card-body">
+							    <h5 class="card-title">A hotel booking application, which allows you to book your accomodation to ease your travel experience.</h5><br>
+							    <p class="card-text">Skills - Python, Django, Jinja, Ajax, HTML, CSS, Bootstrap</p>
+							</div>
+						</div>
+					</a>
 				</div>
-			</div><!--row-->	
-		</div><!--projects-->
-	</div><!--work-page-->
-	</section>
-	<!--**** end of work page ****-->
-	<section class="bg-primary" id="contact">
-	<div class="contact-page">
-		<h3>CONTACTS</h3>
-		<hr class="divider">
-		<div class="col-lg-8 mx-auto text-center">
-			<p style="color: white">Buzz me to collaborate!</p>
+				<div class="col-12 col-sm-4 col-md-3 flex">
+					<a href="https://github.com/ujjwalabai-03/OfflineBanking" target="_blank">
+						<div class="card mycard">
+							<div class="card-header project-header">
+							    Offline Banking
+							</div>
+							<div class="card-body">
+							    <h5 class="card-title">A console application that tracks your banking transactions.</h5><br>
+							    <p class="card-text">Skills - Python, PeeWee, SQLite3</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-12 col-sm-4 col-md-3 flex">
+					<a href="https://github.com/ujjwalabai-03/insta-filter" target="_blank">
+						<div class="card mycard">
+							<div class="card-header project-header">
+							    Insta Filters
+							</div>
+							<div class="card-body">
+							    <h5 class="card-title">A console application To apply filters to images.</h5><br>
+							    <p class="card-text">Skills - Python, PeeWee, SQLite3</p>
+							</div>
+						</div>
+					</a>
+				</div>
+		<br><br>
+		<div class="section4">
+			<div class="about-header flex" data-aos="flip-left" data-aos-duration="1500">My Methodology.</div><br>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-4 col-md-3 flex">
+						<div class="card mycard" data-aos="flip-left" data-aos-duration="1500">
+							<img src="research.svg" alt="" class="svgs"><br>
+							<div class="sec4-card-number">01</div>
+							<div class="sec4-card-header">Research</div>
+							<div class="sec4-card-desc">I start with researching and gathering related information.</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-4 col-md-3 flex">
+						<div class="card mycard" data-aos="flip-left" data-aos-duration="1500">
+							<img src="wireframes.svg" alt="" class="svgs"><br>
+							<div class="sec4-card-number">02</div>
+							<div class="sec4-card-header">Wireframes</div>
+							<div class="sec4-card-desc">I figure out different possible user flows and select the optimal user flow.</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-4 col-md-3 flex">
+						<div class="card mycard" data-aos="flip-left" data-aos-duration="1500">
+							<img src="code.svg" alt="" class="svgs"><br>
+							<div class="sec4-card-number">03</div>
+							<div class="sec4-card-header">Code</div>
+							<div class="sec4-card-desc">Using Django framework I develop the application and using CSS, JS & AJAX I design the UI/UX.</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-4 col-md-3 flex">
+						<div class="card mycard" data-aos="flip-left" data-aos-duration="1500">
+							<img src="test.svg" alt="" class="svgs"><br>
+							<div class="sec4-card-number">04</div>
+							<div class="sec4-card-header">Test</div>
+							<div class="sec4-card-desc">I test for the functionality and responsiveness of the website built and also take valuable feedback.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section5" id="contact">
+			<div class="sec5-header">Buzz me to collaborate!</div><br>
 			<div class="row contacts-container">
-				<div class="col-lg-3 ml-auto text-center text-faded mb-4">
-					<a href="https://mail.google.com/mail/u/0/#inbox"  target="_blank"><i class="fa fa-envelope fa-3x mb-3 sr-contact-1" style="visibility: visible;"></i></a>
+				<div class="col-lg-3 ml-auto text-center text-faded mb-4" data-aos="flip-up" data-aos-duration="1500">
+					<a href="https://mail.google.com/mail/ujjwalabai.1996"  target="_blank"><i class="fa fa-envelope fa-3x mb-3 sr-contact-1" style="visibility: visible;"></i></a>
 				</div>
-				<div class="col-lg-3 ml-auto text-center text-faded mb-4">
+				<div class="col-lg-3 ml-auto text-center text-faded mb-4" data-aos="flip-up" data-aos-duration="1500">
 					<a href="https://github.com/ujjwalabai-03"  target="_blank"><i class="fa fa-github fa-3x mb-3 sr-contact-2" style="visibility: visible;"></i></a>
 				</div>
-				<div class="col-lg-3 ml-auto text-center text-faded mb-4">
-					<a href="https://www.facebook.com/ujjwala.aeju" target="_blank"><i class="fa fa-facebook fa-3x mb-3 sr-contact-3" style="visibility: visible;"></i></a>
+				<div class="col-lg-3 ml-auto text-center text-faded mb-4" data-aos="flip-up" data-aos-duration="1500">
+					<a href="https://t.me/UjjwalaBai" target="_blank"><i class="fa fa-telegram fa-3x mb-3 sr-contact-3" style="visibility: visible;"></i></a>
 				</div>
-				<div class="col-lg-3 ml-auto text-center text-faded mb-4">
+				<div class="col-lg-3 ml-auto text-center text-faded mb-4" data-aos="flip-up" data-aos-duration="1500">
 					<a href="https://www.linkedin.com/in/ujjwala-bai-j-a48140118/" target="_blank"><i class="fa fa-linkedin fa-3x mb-3 sr-contact-4" style="visibility: visible;"></i></a>
 				</div>
-			</div><!--contacts container-->
+			</div><br><br>
+			<p class="copywrite">Copyright  &copy; 2019 | ujjwalabai</p>
 		</div>
-	</div><!--contact-->    
-	</section>
-	<!--**** end of contacts page****-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-	</script>
+	</div>
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
