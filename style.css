@@ -164,8 +164,6 @@ body {
 	line-height: 24px;
 	text-align: center;
 	letter-spacing: 0.02em;
-	padding-left: 350px;
-	padding-right: 350px;
 }
 
 .section3 {
@@ -358,7 +356,7 @@ body {
 
 	.mobile-img {
 		width: 100%;
-		margin-left: -6em;
+		/*margin-left: -6em;*/
 	}
 
 	.hero-subheader h4 {
